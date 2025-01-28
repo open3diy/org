@@ -53,6 +53,15 @@ Making change requests in existing repositories or creating new repositories wil
 
 > In English, branch names should be `camel case` with separation only using `-`.
 
+#### Tools
+
+Recomendamos las siguientes herramientas:
+
+1. [`vscode`](https://code.visualstudio.com/).
+   > Aunque puedes usar tú editor favorito.
+2. Teniendo como referencia `vscode`, necesitas las siguientes extensiones:
+   - [`Markdown Preview Mermaid Support`](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) o cualquier otra que permita usar `Mermaid`.
+
 #### Adding new repositories
 
 Currently is not available.

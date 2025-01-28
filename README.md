@@ -21,6 +21,16 @@ At Open3DIY, every contributor has a unique purpose. The site is designed to:
 
 This focus on purpose-driven projects makes Open3DIY a unique DIY platform, emphasizing both the process and the intentions behind the work.
 
+## Our Philosophy
+
+Now that we're getting to know each other, let's agree on a few terms:
+
+- Everything we do here consists of open solutions. Not only is the content open, as you can see in the [license file](LICENSE), but any solution shared here must be replicable using open tools and technologies—or at least the most open possible.
+
+- Nothing will be perfect from the start. We adopt a continuous improvement approach, iterative or kaizen—call it what you will. The point is, if we get stuck trying to make everything perfect from the beginning, we simply won't do anything. Wouldn't you agree?
+
+- This site combines theoretical or educational explanations with a practical focus. Everything shared here serves a purpose and is functional. If it doesn't work or have a real application, it simply doesn't belong here. Sharing solutions that don't deliver real value is frustrating for everyone.
+
 ## How It Works
 
 ### 1. Explore
@@ -61,7 +71,6 @@ Open3DIY covers a broad spectrum of topics, including but not limited to:
 - **Software Development**: Open-source tools, applications, and scripts.
 - **Mechanical DIY**: 3D printing, CNC machining, and robotics.
 - **Innovative Solutions**: Unique approaches to everyday problems.
-
 
 ## Join Us
 
