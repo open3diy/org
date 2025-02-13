@@ -27,6 +27,10 @@ Now that we're getting to know each other, let's agree on a few terms:
 
 - Everything we do here consists of open solutions. Not only is the content open, as you can see in the [license file](LICENSE), but any solution shared here must be replicable using open tools and technologies—or at least the most open possible.
 
+- We try to use—and why not say it, copy—what works well for most people. We’d rather not reinvent the wheel. I don’t think there’s a golden rule; exceptions exist. But if you feel the need to satisfy your ego, go ahead—just let the rest of us know.
+
+- We believe in the need for resilient systems that stand the test of time. We rely on each other, and that won’t change, but whenever possible, and if we have a choice, we try to avoid easy solutions that are too centralized or proprietary.
+
 - Nothing will be perfect from the start. We adopt a continuous improvement approach, iterative or kaizen—call it what you will. The point is, if we get stuck trying to make everything perfect from the beginning, we simply won't do anything. Wouldn't you agree?
 
 - This site combines theoretical or educational explanations with a practical focus. Everything shared here serves a purpose and is functional. If it doesn't work or have a real application, it simply doesn't belong here. Sharing solutions that don't deliver real value is frustrating for everyone.
