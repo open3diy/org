@@ -21,6 +21,20 @@ At Open3DIY, every contributor has a unique purpose. The site is designed to:
 
 This focus on purpose-driven projects makes Open3DIY a unique DIY platform, emphasizing both the process and the intentions behind the work.
 
+## Our Philosophy
+
+Now that we're getting to know each other, let's agree on a few terms:
+
+- Everything we do here consists of open solutions. Not only is the content open, as you can see in the [license file](LICENSE), but any solution shared here must be replicable using open tools and technologies—or at least the most open possible.
+
+- We try to use—and why not say it, copy—what works well for most people. We’d rather not reinvent the wheel. I don’t think there’s a golden rule; exceptions exist. But if you feel the need to satisfy your ego, go ahead—just let the rest of us know.
+
+- We believe in the need for resilient systems that stand the test of time. We rely on each other, and that won’t change, but whenever possible, and if we have a choice, we try to avoid easy solutions that are too centralized or proprietary.
+
+- Nothing will be perfect from the start. We adopt a continuous improvement approach, iterative or kaizen—call it what you will. The point is, if we get stuck trying to make everything perfect from the beginning, we simply won't do anything. Wouldn't you agree?
+
+- This site combines theoretical or educational explanations with a practical focus. Everything shared here serves a purpose and is functional. If it doesn't work or have a real application, it simply doesn't belong here. Sharing solutions that don't deliver real value is frustrating for everyone.
+
 ## How It Works
 
 ### 1. Explore
@@ -33,25 +47,11 @@ Browse the wide range of DIY guides, projects, and solutions available in the re
 
 ### 2. Contribute
 
-Join the community by contributing your own projects or enhancing existing ones. To contribute:
+There are many ways to contribute: opening issues in specific repositories, joining [community discussions](https://github.com/orgs/open3diy/discussions), forking existing projects, or even proposing new repositories.
 
-1. Fork the repository.
-2. Add your project or updates in a structured format:
-   - Purpose or Objective.
-   - Materials and Tools.
-   - Step-by-step Instructions.
-   - Photos, Diagrams, or Code Snippets.
-3. Submit a pull request.
+When creating a new one, follow the thematic scope: first define the area (e.g., web3 or robotics), then your personal angle (web3-101 as an introduction, web3-letsfun for a more playful approach). Multiple perspectives on the same area are welcome.
 
 For more details, check out the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-### 3. Collaborate
-
-Engage with other community members to:
-
-- Discuss ideas.
-- Provide feedback on projects.
-- Share solutions to common challenges.
 
 ## Categories of Projects
 
@@ -61,7 +61,6 @@ Open3DIY covers a broad spectrum of topics, including but not limited to:
 - **Software Development**: Open-source tools, applications, and scripts.
 - **Mechanical DIY**: 3D printing, CNC machining, and robotics.
 - **Innovative Solutions**: Unique approaches to everyday problems.
-
 
 ## Join Us
 
