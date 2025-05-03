@@ -47,25 +47,11 @@ Browse the wide range of DIY guides, projects, and solutions available in the re
 
 ### 2. Contribute
 
-Join the community by contributing your own projects or enhancing existing ones. To contribute:
+There are many ways to contribute: opening issues in specific repositories, joining [community discussions](https://github.com/orgs/open3diy/discussions), forking existing projects, or even proposing new repositories.
 
-1. Fork the repository.
-2. Add your project or updates in a structured format:
-   - Purpose or Objective.
-   - Materials and Tools.
-   - Step-by-step Instructions.
-   - Photos, Diagrams, or Code Snippets.
-3. Submit a pull request.
+When creating a new one, follow the thematic scope: first define the area (e.g., web3 or robotics), then your personal angle (web3-101 as an introduction, web3-letsfun for a more playful approach). Multiple perspectives on the same area are welcome.
 
 For more details, check out the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-### 3. Collaborate
-
-Engage with other community members to:
-
-- Discuss ideas.
-- Provide feedback on projects.
-- Share solutions to common challenges.
 
 ## Categories of Projects
 
