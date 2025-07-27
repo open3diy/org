@@ -1,6 +1,6 @@
 # Welcome to Open3DIY.org
 
-Open3DIY.org is a GitHub-hosted site dedicated to software solutions, electronics, and technological innovation. It is a space for enthusiasts to learn, share, and collaborate with one another through do-it-yourself (DIY)-style guides.
+Open3DIY.org is a site dedicated to software solutions, electronics, and technological innovation. It is a space for enthusiasts to learn, share, and collaborate with one another through do-it-yourself(DIY)-style guides.
 
 ## What is Open3DIY?
 
@@ -27,9 +27,9 @@ Now that we're getting to know each other, let's agree on a few terms:
 
 - Everything we do here consists of open solutions. Not only is the content open, as you can see in the [license file](LICENSE), but any solution shared here must be replicable using open tools and technologies—or at least the most open possible.
 
-- We try to use—and why not say it, copy—what works well for most people. We’d rather not reinvent the wheel. I don’t think there’s a golden rule; exceptions exist. But if you feel the need to satisfy your ego, go ahead—just let the rest of us know.
+- We try to use—and yes, even copy—what works well for most people. We’d rather not reinvent the wheel. I don’t think there’s a golden rule; there are exceptions. But if you feel the need to satisfy your ego, go ahead—just let the rest of us know.
 
-- We believe in the need for resilient systems that stand the test of time. We rely on each other, and that won’t change, but whenever possible, and if we have a choice, we try to avoid easy solutions that are too centralized or proprietary.
+- We believe in the need for resilient systems that stand the test of time. We rely on each other, and that won’t change, but whenever possible, and when possible, we try to avoid easy solutions that are too centralized or proprietary.
 
 - Nothing will be perfect from the start. We adopt a continuous improvement approach, iterative or kaizen—call it what you will. The point is, if we get stuck trying to make everything perfect from the beginning, we simply won't do anything. Wouldn't you agree?
 
@@ -61,6 +61,7 @@ Open3DIY covers a broad spectrum of topics, including but not limited to:
 - **Software Development**: Open-source tools, applications, and scripts.
 - **Mechanical DIY**: 3D printing, CNC machining, and robotics.
 - **Innovative Solutions**: Unique approaches to everyday problems.
+- **Web3**: Blockchain, decentralized applications (dApps), smart contracts, Web3 education, and related technologies.
 
 ## Join Us
 
@@ -72,7 +73,7 @@ Whether you're a seasoned expert or just starting, Open3DIY welcomes everyone pa
 
 ## License
 
-This repository is licensed under the `Creative Commons Attribution-ShareAlike 4.0`, ensuring freedom to use, modify, and distribute the content while attributing the original authors.
+This repository is licensed under the `Creative Commons Zero v1.0 Universal`, dedicating the work to the public domain and ensuring maximum freedom to use, modify, and distribute the content without any restrictions.
 
 ---
 

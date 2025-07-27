@@ -1,14 +1,14 @@
 # Contributing to open3diy.org
 
-Thank you for your interest in contributing to the DIY-Experiences repository!
+Thank you for your interest in contributing to the DIY-experiences repository!
 
-This project is licensed under the [**Creative Commons Attribution-ShareAlike (CC-BY-SA) 4**](https://creativecommons.org/licenses/by-sa/4.0/deed.en) license, which means your contributions will help expand a freely accessible knowledge base for everyone.
+This project is licensed under the [**Creative Commons Zero v1.0 Universal (CC0)**](https://creativecommons.org/publicdomain/zero/1.0/) license, dedicating the work to the public domain and helping expand a freely accessible knowledge base for all.
 
 ## Guidelines for Contributions
 
 ### Attribution
 
-Always provide proper credit if you are including material or ideas from external sources.
+Always provide proper credit if you are including material or content from external sources.
 
 ### Style
 
@@ -20,13 +20,13 @@ Always provide proper credit if you are including material or ideas from externa
 solution1-userInstall-fixes
 ```
 
-- Keywords or key references always in English, but the content can use your own language!!!
+- Keep keywords and references in English; content may be in your preferred language.
 
   > **Let's make everyone feel comfortable with their language.**
 
 ### Licensing
 
-- By contributing, you agree that your work will be licensed under the **Creative Commons Attribution-ShareAlike (CC-BY-SA)** license.
+- By contributing, you agree that your work will be dedicated to the public domain under the **Creative Commons Zero v1.0 Universal (CC0)** license.
 
 ## Code of Conduct
 
@@ -50,25 +50,11 @@ Making change requests in existing repositories or creating new repositories wil
 - **Bugfix branches**: For fixing issues. Example: `bugfix/issue-123` or `bugfix/review-inconsistent-steps`.
 - **Repository documentation:**: For changes to repository documentation. Example: `docs/initial-documentation`.
 
-> Internal repository documentation, instruction-based documentation is a feature,
+  > Internal repository documentation, instruction-based documentation is a feature.
 
 - **Experiments**: To test ideas or experiments that might not be included. Example:`experiment/test-alternativeInstallation`.
 
-> In English, branch names should be `camel case` with separation only using `-`.
-
-#### Tools
-
-We recommend the following tools:
-
-1. [`vscode`](https://code.visualstudio.com/).
-   > Although you can use your favorite editor.
-2. Using `vscode` as a reference, you need the following extensions:
-   - [`Markdown Preview Mermaid Support`](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) or any other that allows you to use `Mermaid`.
-3. [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) to detect errors or bad practices when writing in [markdown](https://es.wikipedia.org/wiki/Markdown).
-4. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to correct spelling.
-5. [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) for creating and running interactive notebooks that combine code, text, and graphics. Ideal for testing, calculations, analysis, and documentation in a single `.ipynb` file.
-   - In addition to having python installed, you will need to install the ipykernel package.
-   - From [binder](https://notebooks.gesis.org/binder/) you can load the notebooks.
+Branch names should use English keywords in `camel case`, with sections separated only by `-`.
 
 #### Adding new repositories
 
@@ -209,3 +195,47 @@ git fetch origin main
 - Ensure your changes are well-documented and formatted clearly.
 - Provide a clear description of your changes in the pull request.
 - Reference any external sources if applicable.
+
+## Recommended Tools
+
+We recommend the following tools:
+
+1. [`vscode`](https://code.visualstudio.com/).
+   > Although you can use your favorite editor.
+2. Using `vscode` as a reference, you need the following extensions:
+   - [`Markdown Preview Mermaid Support`](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) or any other that allows you to use `Mermaid`.
+3. [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) to detect errors or bad practices when writing in [markdown](https://es.wikipedia.org/wiki/Markdown).
+4. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to correct spelling.
+5. [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) for creating and running interactive notebooks that combine code, text, and graphics. Ideal for testing, calculations, analysis, and documentation in a single `.ipynb` file.
+   - In addition to having python installed, you will need to install the ipykernel package.
+   - From [binder](https://notebooks.gesis.org/binder/) you can load the notebooks.
+
+## How to Install Jekyll and Test the <open3diy.org> Documentation Page
+
+Jekyll is used to generate the main site page, leveraging GitHub Pages integration for automatic documentation publishing.
+
+To install and run Jekyll on Linux, follow these steps:
+
+1. Check the official guide at [jekyllrb.com/docs](https://jekyllrb.com/docs/) and, for Ubuntu, see [jekyllrb.com/docs/installation/ubuntu](https://jekyllrb.com/docs/installation/ubuntu/).
+2. Install the required dependencies (only the first time) from the terminal, in the project's root folder:
+
+   ```bash
+   bundle install
+   ```
+
+3. To start the documentation server, run:
+
+   ```bash
+   bundle exec jekyll serve --source docs
+   ```
+
+4. Access the local page at [http://localhost:4000](http://localhost:4000).
+
+5. For the `githubdoc` plugin, if you are an authorized user, create a **classic token** at <https://github.com/settings/tokens> and add it to your `~/.bashrc` with the following content:
+
+   ```bash
+   export JEKYLL_GITHUB_TOKEN=your_token
+   source ~/.bashrc
+   ```
+
+> If you encounter dependency issues, check the official documentation or seek help from the Jekyll community.
