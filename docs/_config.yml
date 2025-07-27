@@ -1,1 +1,7 @@
 theme: minima
+title: Open3DIY.org
+description: Open Source Technology Hub for Innovation and Learning
+author: Open3DIY Community
+baseurl: ""
+url: "https://open3diy.org"
+github_username: open3diy

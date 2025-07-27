@@ -1,0 +1,31 @@
+# Jekyll generated site
+_site/
+
+# Jekyll cache
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Local environment files
+.env
+.env.*
+
+# Ruby dependency manager
+.bundle/
+vendor/
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*~
+*.tmp
