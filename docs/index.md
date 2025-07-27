@@ -4,9 +4,8 @@ description: A collaborative platform for software solutions, electronics, web3,
 permalink: /
 ---
 
-<link rel="stylesheet" href="/assets/css/hero.css">
-
 # Welcome to Open3DIY.org
+
 {: .hero-title}
 
 **Open Source Technology Hub for Innovation and Learning**
