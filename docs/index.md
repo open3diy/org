@@ -5,7 +5,6 @@ permalink: /
 ---
 
 <link rel="stylesheet" href="/assets/css/hero.css">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 # Welcome to Open3DIY.org
 {: .hero-title}
