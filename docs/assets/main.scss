@@ -293,6 +293,22 @@ body {
 /* Mejorar la legibilidad del header fijo */
 .site-header .site-title {
   color: var(--secondary-color) !important;
+  background: url('/favicon.png') no-repeat left center;
+  background-size: 64px 46px;
+  padding-left: 72px;
+  font-size: 0; /* Ocultar el texto pero mantener el espacio */
+  width: 64px; /* Solo mostrar el icono */
+  overflow: hidden;
+  text-indent: -9999px; /* Ocultar texto completamente */
+}
+
+.site-header .site-title:before {
+  content: "Open3DIY.org";
+  font-size: 1.35em;
+  text-indent: 0;
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
 }
 
 .site-header .site-nav .page-link {
