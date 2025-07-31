@@ -270,3 +270,35 @@ body {
     width: 200px;
   }
 }
+
+/* Header fijo básico - extiende minima sin romperlo */
+.site-header {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Compensar el espacio del header fijo */
+body {
+  padding-top: 56px; /* Altura aproximada del header de minima */
+}
+
+/* Mejorar la legibilidad del header fijo */
+.site-header .site-title {
+  color: var(--secondary-color) !important;
+}
+
+.site-header .site-nav .page-link {
+  color: var(--text-color) !important;
+}
+
+.site-header .site-nav .page-link:hover {
+  color: var(--primary-color) !important;
+}
