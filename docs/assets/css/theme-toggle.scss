@@ -1,0 +1,163 @@
+---
+---
+
+// Dark/Light Mode Toggle Styles
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--background-color, #ffffff);
+  border: 2px solid var(--border-color, #e1e4e8);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .sun-icon {
+    display: none;
+  }
+
+  .moon-icon {
+    display: block;
+  }
+}
+
+// Light mode (default)
+[data-theme="light"] {
+  --background-color: #ffffff;
+  --text-color: #2d3748;
+  --border-color: #e1e4e8;
+  --link-color: #3498db;
+  --link-hover-color: #2980b9;
+  --header-bg: #ffffff;
+  --footer-bg: #f8f9fa;
+  --code-bg: #f6f8fa;
+  --shadow-color: rgba(0,0,0,0.1);
+}
+
+// Dark mode
+[data-theme="dark"] {
+  --background-color: #1a202c;
+  --text-color: #e2e8f0;
+  --border-color: #4a5568;
+  --link-color: #63b3ed;
+  --link-hover-color: #90cdf4;
+  --header-bg: #2d3748;
+  --footer-bg: #2d3748;
+  --code-bg: #2d3748;
+  --shadow-color: rgba(0,0,0,0.3);
+
+  // Apply dark theme to main elements
+  body {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .site-header {
+    background-color: var(--header-bg) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+
+  .site-title {
+    color: var(--text-color) !important;
+  }
+
+  .site-nav .page-link {
+    color: var(--text-color) !important;
+    
+    &:hover {
+      color: var(--link-color) !important;
+    }
+  }
+
+  .site-footer {
+    background-color: var(--footer-bg) !important;
+    border-top: 1px solid var(--border-color) !important;
+    color: var(--text-color) !important;
+  }
+
+  .page-content {
+    background-color: var(--background-color) !important;
+  }
+
+  // Typography
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color) !important;
+  }
+
+  p, li, td, th {
+    color: var(--text-color) !important;
+  }
+
+  a {
+    color: var(--link-color) !important;
+    
+    &:hover {
+      color: var(--link-hover-color) !important;
+    }
+  }
+
+  // Code blocks
+  pre, code {
+    background-color: var(--code-bg) !important;
+    color: var(--text-color) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+
+  // Cards and containers
+  .wrapper {
+    background-color: transparent !important;
+  }
+
+  // Hero sections
+  .hero-video-container {
+    .hero-overlay {
+      background: rgba(26, 32, 44, 0.8) !important;
+    }
+  }
+
+  // Feature grids
+  .feature-grid .feature-item {
+    background-color: var(--header-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 4px 12px var(--shadow-color) !important;
+  }
+
+  // Social links
+  .social-media-list {
+    a {
+      color: var(--text-color) !important;
+      
+      &:hover {
+        color: var(--link-color) !important;
+      }
+    }
+  }
+
+  .theme-toggle {
+    background: var(--background-color);
+    border-color: var(--border-color);
+    color: var(--text-color);
+
+    .sun-icon {
+      display: block;
+    }
+
+    .moon-icon {
+      display: none;
+    }
+  }
+}
