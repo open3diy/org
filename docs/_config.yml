@@ -16,9 +16,15 @@ logo: /assets/open3diy-logo.png
 
 minima:
   social_links:
-    github: open3diy
-    twitter: open3diy
-    discord: open3diy
+    - title: Open3DIY on GitHub
+      icon: github
+      url: "https://github.com/open3diy"
+    - title: Open3DIY on Twitter/X
+      icon: x-twitter
+      url: "https://twitter.com/open3diy"
+    - title: Open3DIY Discord Server
+      icon: discord
+      url: "https://discord.gg/YT6WuEgj"
 
 sass:
   load_paths:
