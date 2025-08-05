@@ -285,23 +285,29 @@ body {
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  min-height: 70px; /* Altura mínima para acomodar el icono más grande */
 }
 
 /* Compensar el espacio del header fijo */
 body {
-  padding-top: 56px; /* Altura aproximada del header de minima */
+  padding-top: 70px; /* Altura mayor para acomodar el icono más grande */
 }
 
 /* Mejorar la legibilidad del header fijo */
 .site-header .site-title {
   color: var(--secondary-color) !important;
   background: url('/favicon.png') no-repeat left center;
-  background-size: 64px 46px;
-  padding-left: 72px;
+  background-size: 70px 70px;
+  padding-left: 85px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 0; /* Ocultar el texto pero mantener el espacio */
-  width: 64px; /* Solo mostrar el icono */
+  width: 70px; /* Solo mostrar el icono */
   overflow: hidden;
   text-indent: -9999px; /* Ocultar texto completamente */
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 50px; /* Centrar verticalmente en el header de 70px */
 }
 
 .site-header .site-title:before {
