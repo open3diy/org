@@ -239,3 +239,11 @@ To install and run Jekyll on Linux, follow these steps:
    ```
 
 > If you encounter dependency issues, check the official documentation or seek help from the Jekyll community.
+
+### GitHub Pages Configuration
+
+Although this setup is usually done when creating the repository and enabling GitHub Pages, here are the steps to configure GitHub Pages and use the latest version of Minima, the base Jekyll theme that is not limited by classic GitHub Pages.
+
+1. In the `org` repository of `open3diy`, go to **Settings → Pages → Build and deployment**.
+
+2. Under **Build**, in the **Source** option, select **GitHub Pages Jekyll** and click **Configure**. A valid configuration will be proposed, so click **Commit changes...**.

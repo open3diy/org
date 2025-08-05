@@ -1,7 +1,25 @@
 theme: minima
+
 title: Open3DIY.org
 description: Open Source Technology Hub for Innovation and Learning
 author: Open3DIY Community
 baseurl: ""
 url: "https://open3diy.org"
+lang: "en"
+timezone: "GMT"
+
 github_username: open3diy
+twitter_username: open3diy
+
+# SEO and social media
+logo: /assets/open3diy-logo.png
+
+minima:
+  social_links:
+    github: open3diy
+    twitter: open3diy
+    discord: open3diy
+
+sass:
+  load_paths:
+    - _sass

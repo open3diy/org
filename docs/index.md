@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 description: A collaborative platform for software solutions, electronics, web3, immersive experience, and technological innovation through DIY-style guides.
 permalink: /
 ---
