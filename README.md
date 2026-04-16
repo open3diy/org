@@ -65,7 +65,7 @@ Browse the wide range of DIY guides, projects, and solutions available in the re
 
 There are many ways to contribute: opening issues in specific repositories, joining [community discussions](https://github.com/orgs/open3diy/discussions), forking existing projects, or even proposing new repositories.
 
-When creating a new one, follow the thematic scope: first define the area (e.g., web3 or robotics), then your personal angle (web3-101 as an introduction, web3-letsfun for a more playful approach). Multiple perspectives on the same area are welcome.
+When creating a new one, follow the thematic scope: first define the area (for example, web3 or robotics), then your personal approach (web3-101 as an introduction, web3-letsfun for a more playful approach), or even provide a more personal or specific review (such as web3-101-fundamentals). Multiple perspectives on the same area are accepted as long as they bring a new stated purpose.
 
 For more details, check out the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
@@ -83,7 +83,7 @@ Open3DIY covers a broad spectrum of topics, including but not limited to:
 
 Whether you're a seasoned expert or just starting, Open3DIY welcomes everyone passionate about technology and innovation. Let’s create, learn, and grow together!
 
-- **Website**: [Open3DIY.org](https://org.open3diy.org/)
+- **Website**: [Open3DIY.org](https://open3diy.org/)
 - **Community Discussions**: [GitHub Discussions](https://github.com/orgs/open3diy/discussions)
 - **Contribute**: [How to Contribute](CONTRIBUTING.md)
 
@@ -92,8 +92,6 @@ Whether you're a seasoned expert or just starting, Open3DIY welcomes everyone pa
 For questions, suggestions, or collaboration opportunities, feel free to reach out:
 
 - **Email**: [contact@open3diy.org](mailto:contact@open3diy.org).
-
-
 
 ---
 

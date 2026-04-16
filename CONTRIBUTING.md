@@ -39,7 +39,7 @@ Please review how to create branches in `.github/copilot-instructions.md`.
 
 #### Creating git branches
 
-The following details how to make change requests in existing repositories or create new repositories following the [github flow](https://docs.github.com/en/get-started/using-github/github-flow). Inspired by **[a successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)**, the following branch naming convention will be used:
+The following details how to make change requests in existing repositories or create new repositories following the [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow). Inspired by **[a successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)**, the following branch naming convention will be used:
 
 - **Feature branches**: For new functionalities. Example: `feature/chapter-1-ipfs` or `feature/install-proxy`.
 - **Bugfix branches**: For fixing issues. Example: `bugfix/issue-123` or `bugfix/review-inconsistent-steps`.
@@ -53,7 +53,7 @@ Branch names must use English keywords in `kebab-case`, with sections separated 
 
 #### Making git commits
 
-[Conventional Commits](https://www.conventionalcommits.org/) is used to write commit messages in English. Examples:
+[Conventional Commits](https://www.conventionalcommits.org/) is used to write commit messages in English. Note that `init` and `security` are local extensions to the Conventional Commits specification. Examples:
 
 - `init`: for the start of a project or module, creating the structure, if no actual content has been added:
 
@@ -190,6 +190,8 @@ git fetch origin main
 
 4. Commit your work periodically with each significant activity.
 
+   > **Tip**: If you use VS Code, the Source Control panel shows a ✨ button to generate commit messages automatically with GitHub Copilot.
+
 5. Push the changes to your remote git branch and check from there that everything is correct. Things often look different if you take the time to review the instructions as if you were the end user.
 
 6. Make sure to perform a `git rebase -i` on your branch to:
@@ -197,11 +199,13 @@ git fetch origin main
 - Merge small or related commits (`squash`).
 - Rewrite commit messages to make them clear and descriptive.
 
-7. Submit a `pull request` to the `main` branch. Please, make sure that:
+7. Submit a `pull request` to the `main` branch:
 
 - Ensure your changes are well-documented and formatted clearly.
 - Provide a clear description of your changes in the pull request.
 - Reference any external sources if applicable.
+
+   > **Tip**: If you use VS Code with the [`GitHub Pull Requests`](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) extension, you can create, review, and merge pull requests directly from the editor — no need to open a browser. See the full step-by-step guide in [docs/guides/pull-requests-vscode.md](docs/guides/pull-requests-vscode.md).
 
 ## Recommended Tools
 
@@ -210,44 +214,7 @@ We recommend the following tools:
 1. [`vscode`](https://code.visualstudio.com/).
    > Although you can use your favorite editor.
 2. Using `vscode` as a reference, you need the following extensions:
+   - [`GitHub Pull Requests`](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) to create, review, and merge pull requests without leaving VS Code.
    - [`Markdown Preview Mermaid Support`](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) or any other that allows you to use `Mermaid`.
    - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) to detect errors or bad practices when writing in [markdown](https://en.wikipedia.org/wiki/Markdown).
    - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to correct spelling.
-
-## How to Install Jekyll and Test the <open3diy.org> Documentation Page
-
-Jekyll is used to generate the main site page, leveraging GitHub Pages integration for automatic documentation publishing.
-
-To install and run Jekyll on Linux, follow these steps:
-
-1. Check the official guide at [jekyllrb.com/docs](https://jekyllrb.com/docs/) and, for Ubuntu, see [jekyllrb.com/docs/installation/ubuntu](https://jekyllrb.com/docs/installation/ubuntu/).
-2. Install the required dependencies (only the first time) from the terminal, in the project's root folder:
-
-   ```bash
-   bundle install
-   ```
-
-3. To start the documentation server, run:
-
-   ```bash
-   bundle exec jekyll serve --source docs
-   ```
-
-4. Access the local page at [http://localhost:4000](http://localhost:4000).
-
-5. For the `githubdoc` plugin, if you are an authorized user, create a **classic token** at <https://github.com/settings/tokens> and add it to your `~/.bashrc` with the following content:
-
-   ```bash
-   export JEKYLL_GITHUB_TOKEN=your_token
-   source ~/.bashrc
-   ```
-
-> If you encounter dependency issues, check the official documentation or seek help from the Jekyll community.
-
-### GitHub Pages Configuration
-
-Although this setup is usually done when creating the repository and enabling GitHub Pages, here are the steps to configure GitHub Pages and use the latest version of Minima, the base Jekyll theme that is not limited by classic GitHub Pages.
-
-1. In the `org` repository of `open3diy`, go to **Settings → Pages → Build and deployment**.
-
-2. Under **Build**, in the **Source** option, select **GitHub Pages Jekyll** and click **Configure**. A valid configuration will be proposed, so click **Commit changes...**.
