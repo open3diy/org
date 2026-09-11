@@ -15,6 +15,10 @@ Open3DIY is more than just a repository of projects—it is a hub for:
 
 This repository is licensed under the `Creative Commons Zero v1.0 Universal`, dedicating the work to the public domain and ensuring maximum freedom to use, modify, and distribute the content without any restrictions.
 
+## Disclaimer
+
+We do our best to link only to open and freely accessible resources, but we cannot guarantee the current state of every external site. If you find a broken, paywalled, or fraudulent link, please [open an issue](https://github.com/open3diy/org/issues) so the community can fix it. See the full [DISCLAIMER.md](DISCLAIMER.md) for details.
+
 ## Our Purpose
 
 At Open3DIY, every contributor has a unique purpose. The site is designed to:
